@@ -1,0 +1,2 @@
+Fare in modo di rimuovere il libro aggiunto
+Progetto pagina html css su un personaggio con una tabella, aggiunta e rimozione.
