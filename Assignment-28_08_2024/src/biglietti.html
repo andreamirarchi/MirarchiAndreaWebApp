@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biglietti</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="js/cod_barre.js"></script>
+    <script src="js/prezzo.js"></script>
+    <script src="js/scaricaFile.js"></script>
+</head>
+<body>
+<form onsubmit="scaricaFile(); return false;">
+    <input type="text" name="nome" placeholder="Nome" required />
+
+    <input type="number" name="quantita" placeholder="Quantità" id="amount" onchange="calcolaPrezzo()" required />
+
+    <label>Prezzo: $</label><label id="prezzoCalcolato">0.00</label>
+
+    <button type="submit">Scarica</button>
+</form>
+</body>
+</html>
