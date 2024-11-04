@@ -1,0 +1,65 @@
+.logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+        }
+.nav-container {
+            margin-left: 130px;
+            padding-top: 10px;
+        }
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .profile-pic::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background-color: blue;
+            border-radius: 50%;
+        }
+        .comment-date {
+            font-size: 0.8rem;
+            color: gray;
+        }
+
+                form {
+                    max-width: 200px;
+                    padding: 30px;
+                }
+
+                h1 {
+                    text-align: center;
+                    margin-bottom: 20px;
+                    color: #007bff;
+                }
+
+                .form-label {
+                    font-weight: bold;
+                    color: #555;
+                }
+
+                .input-group-text {
+                    font-weight: bold;
+                }
+
+                .btn-custom {
+                    background-color: #007bff;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    transition: background-color 0.3s ease;
+                    width: 100%;
+                }
+
+                .btn-custom:hover {
+                    background-color: #0056b3;
+                    color: #ffffff;
+                }
